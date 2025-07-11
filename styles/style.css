@@ -80,4 +80,19 @@ nav li a{
 .title{
     font-size: xx-large;
 }
+.users{
+    display: flex;
+    justify-content: space-between;
+    margin:10%;
+}
+div input[type="text"], div input[type="email"], div textarea{
+    display: block;
+    border-radius: 5px;
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
 
