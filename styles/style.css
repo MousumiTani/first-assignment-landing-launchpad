@@ -53,7 +53,7 @@ nav li a{
 .action-section{
     display: flex;
     justify-content: space-between;
-    margin: 25% 5% 0% 5%;
+    margin: 25% 5% 5% 5%;
     
 }
 .action-section-content{
@@ -64,5 +64,20 @@ nav li a{
     max-width: 403px;
     max-height: 328px;
     border-radius: 48px;
+}
+.productive-users{
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 24px;
+    padding: 130px 150px;
+    margin: 10%
+}
+.items{
+    display: flex ;
+    text-align: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: xx-large;
 }
 
