@@ -10,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-position-y: top;
   
-  
+
 }
 nav{
     text-decoration: none;
@@ -46,6 +46,10 @@ nav li a{
         border: none;
         border-radius: 10px;
 }
+.btn:hover {
+  background-color: #008CBA;
+ 
+}
 .banner-content{
     text-align: center;
     
@@ -58,12 +62,15 @@ nav li a{
 }
 .action-section-content{
     max-width: 517px;
-    max-height: 203px;
+    max-height: 200px;
 }
 .action-section-image{
     max-width: 403px;
     max-height: 328px;
     border-radius: 48px;
+}
+.title{
+    font-size: xx-large;
 }
 .productive-users{
     text-align: center;
@@ -77,13 +84,30 @@ nav li a{
     text-align: center;
     justify-content: space-between;
 }
-.title{
-    font-size: xx-large;
+
+.card {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+ 
 }
+
+.container {
+  background-color: #F2EDED;
+  padding: 2px 8px;
+}
+
 .users{
     display: flex;
     justify-content: space-between;
     margin:10%;
+}
+.bold-text{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 20%;
+    
 }
 div input[type="text"], div input[type="email"], div textarea{
     display: block;
@@ -93,6 +117,24 @@ div input[type="text"], div input[type="email"], div textarea{
     padding: 10px 20px;
     margin-top:20px;
     margin-bottom: 20px;
+    
+}
+.footer-section{
+    text-align: center;
+}
+
+footer ul li{
+    text-decoration: none;
+    display: inline;
+    
+}
+footer p{
+    color: #8987A1;
+}
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+    padding: 16px 16px;
     
 }
 
